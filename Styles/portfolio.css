@@ -2,8 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
 /* Body STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -13,7 +17,6 @@ body {
 .common-button {
     border-radius: 5px;
     background: #FD6E0A;
-    margin-left: 51px;
     padding: 18px 35px;
     color: #FFF;
     font-size: 20px;
@@ -27,6 +30,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 226px;
+    margin-right: 230px;
+    margin-top: 51px;
 }
 
 nav>h3 {
@@ -52,7 +58,59 @@ nav>ul>li>a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
-    padding-left: 68px;
+    padding-right: 68px;
 }
 
+/* Body main 1st page styles */
 
+main>div>section>h3 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+main>div>section>h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+main>div>section>p {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 585px;
+    margin-bottom: 30px;
+}
+
+.contact-button {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-left: 230px;
+    margin-right: 38;
+}
+
+.profile-picture{
+    padding-top: 48px;
+    width: 584px;
+    height: 676px;
+}
